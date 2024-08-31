@@ -1,7 +1,7 @@
 import mongoose, { Schema, Document } from "mongoose";
 import { Inria_Serif } from "next/font/google";
 
-interface Message extends Document {
+export interface Message extends Document {
     content: string;
     createAt: Date;
 }
